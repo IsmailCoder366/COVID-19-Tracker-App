@@ -17,12 +17,12 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
   void initState() {
     super.initState();
     _controller = AnimationController(
-      duration: const Duration(seconds: 3),
+      duration: const Duration(seconds: 5),
       vsync: this,
     )..repeat();
 
 
-    Timer(Duration(seconds: 3),
+    Timer(Duration(seconds: 5),
         () =>
     Navigator.pushReplacement(
         context, MaterialPageRoute(builder: (_controller) => WorldState()))

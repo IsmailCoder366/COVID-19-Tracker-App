@@ -1,6 +1,6 @@
 # covid19_tracker_app
 
-A new Flutter project.
+this is COVID-19 Tracker App built with Flutter.
 
 ## Getting Started
 
